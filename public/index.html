@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuida tu planta</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="containers">
+        
+    <h1 class="title">Cuida tu querida planta</h1>
+    <img src="./img/regadera.png" >
+        <div class="box">
+            <div class="separa">
+                <h2 class="op" id="humA-tit">Humedad de Antes</h2>
+                <span class="data" id="humA">Obteniendo datos...</span>
+            </div>
+            <div class="separa">
+                <h2 class="op" id="humD-tit">Humedad Despues del riego</h2>
+                <span class="data" id="humD">Obteniendo datos...</span>
+            </div>
+            <div class="separa">
+                <h2 class="op" id="tim-tit">Fecha de Riego</h2>
+                <span class="data" id="tim">Obteniendo datos...</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script type="module" src="/script.js"></script>
+
+</html>
